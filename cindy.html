@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cindy's portofolio</title>
+  <div class="contento">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* CSS tambahan untuk efek dan gaya Gen Z */
+    body {
+      font-family: 'Arial', sans-serif;
+      scroll-behavior: smooth;
+      background-color: #1b1f3b; /* Biru dongker */
+      color: #ffffff;
+    }
+
+    .navbar {
+      background-color: rgba(27, 31, 59, 0.9);
+    }
+
+    .navbar-brand, .nav-link {
+      color: #ffffff !important;
+      font-weight: bold;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #ffde59 !important;
+    }
+
+    /* Background header dengan motif */
+    .jumbotron {
+      background: linear-gradient(rgba(27, 31, 59, 0.9), rgba(27, 31, 59, 0.9)), url('https://www.transparenttextures.com/patterns/diagmonds-light.png');
+      background-size: cover;
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    /* Profil dan about */
+    #about {
+      padding: 60px 0;
+      background-color: #1f2235;
+      color: #ffde59;
+      position: relative;
+    }
+
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 5px solid #ffde59;
+      margin-bottom: 20px;
+    }
+
+    /* Projects */
+    #projects {
+      padding: 60px 0;
+    }
+
+    .card {
+      background-color: #2a2f48;
+      color: #ffffff;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+      border: none;
+      border-radius: 15px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-custom {
+      background-color: #ffde59;
+      color: #1b1f3b;
+      font-weight: bold;
+    }
+
+    /* Kontak */
+    #contact {
+      padding: 60px 0;
+      background-color: #1b1f3b;
+      color: #ffffff;
+    }
+
+    footer {
+      background-color: #1f2235;
+      color: #ffde59;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Cindy's portofolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Hai, i'm  Cindy</h1>
+      <p class="lead">A Creative Developer for the Modern World</p>
+      <a href="#projects" class="btn btn-custom btn-lg mt-3">Explore My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="text-center">
+    <div class="container">
+      <h2 class="mb-4">About Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <img src="images/profilcindys.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="col-md-6"><border></border>
+          <p>Hello! My name is Cindy, and I'm currently studying Information Technology at Universitas Sumatera Utara.
+          <p>I'm a creative developer. I love bringing new ideas to life through efficient and user-friendly applications. Coding is my passion, and I continuously explore new techniques and trends in the industry.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <div class="card-deck" style="margin-top: 5px; margin-bottom: 5px;">
+    <div class="card">
+      <img src="https://www.jagoanhosting.com/blog/wp-content/uploads/2023/08/belajar-ui-ux.jpg" 
+      class="card-img-top" alt="Jarilo-VI">
+      <div class="card-body">
+        <h5 class="card-title">UI/UX Designer</h5>
+        <p class="card-text">As someone who is very enthusiastic in the field of UI/UX design, I love to create engaging and intuitive user experiences. I have mastered about 75% of the skills required in this field.
+          I always try to understand user needs, combine them with effective design principles, and create solutions that are not only visually beautiful but also functional.<p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a href="#" class="btn btn">Learn More</a></small>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://novri.web.id/wp-content/uploads/2020/11/Cara-Membuat-Form-Pendaftaran-di-Wordpress.webp">
+    <div class="card-body">
+      <h5 class="card-title">A creativecreate a registration form</h5>
+      <p class="card-text">I have experience in designing practical and easy-to-use registration forms for various purposes. From event registration, community membership, to service registration forms,
+        I ensure that each form is designed with a simple and intuitive flow so that users feel comfortable filling in their data.<p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a href="#" class="btn btn">Learn More</a></small>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://s.yimg.com/ny/api/res/1.2/.2EHomG4_4kS4WHXhxzZaw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://s.yimg.com/uu/api/res/1.2/VhK37kHFGAypO7qmLbYB4w--~B/aD0xNjg4O3c9MzAwMDthcHBpZD15dGFjaHlvbg--/http://globalfinance.zenfs.com/images/US_AHTTP_AP_FINANCIALTIMES/763e1de0c9f4bb1d1e0f6a7067002bc6_original.jpg" 
+    class="card-img-top" alt="Penacony">
+    <div class="card-body">
+    <h5 class="card-title">Web Cartoon's</h5>
+      <p class="card-text">I have a hobby in Disney, then I created a website that contains cartoons and in the future I will develop this hobby so that children can easily access it.<p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a href="#" class="btn btn">Learn More</a></small>
+  </div>
+</div>
+</div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="text-center">
+    <div class="container">
+      <h2 class="mb-4">Contact Me</h2>
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-custom">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function showAlert(project) {
+      alert('More information about ' + project + ' will be available soon.');
+    }
+  </script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
